@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Taylor Stanley">
+    <title>Stanley - Acorn Stairlifts Technical Test</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS -->
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+/* Set the width of the sidebar to 120px */
+.sidebar {
+    width: 120px;
+    background: #16BAC5;
+}
+
+.main {
+    margin-left: 120px
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-left: 0
+        }
+    }
+</style>
+
+<body class="circle-bg">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="sidebar bar-block small hide-small center">
+  <!-- Avatar image in top left corner -->
+  <img src="/images/logo.png" style="width:100%; padding: 10px 10px">
+  <a href="#" class="bar-item button padding-large">
+    <i class="fa fa-home xxlarge" style="color: #383838;"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#reviews" class="bar-item button padding-large">
+    <i class="fa fa-users xxlarge" style="color: #383838;"></i>
+    <p>REVIEWS</p>
+  </a>
+  <a href="#gallery" class="bar-item button padding-large">
+    <i class="fa fa-image xxlarge" style="color: #383838;"></i>
+    <p>GALLERY</p>
+  </a>
+  <a href="#contact" class="bar-item button padding-large">
+    <i class="fa fa-envelope xxlarge" style="color: #383838;"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="top hide-large hide-medium" id="myNavbar">
+  <div class="bar opacity hover-opacity-off center small">
+    <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+    <a href="#reviews" class="bar-item button" style="width:25%">REVIEWS</a>
+    <a href="#gallery" class="bar-item button" style="width:25%">GALLERY</a>
+    <a href="#contact" class="bar-item button" style="width:25%">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="main">
+  <!-- Header/Home -->
+  <header class="container padding-64 bg-header " id="home">
+    <h1 class="jumbo padding-top-24 white">
+        Discover the best 
+        <br>
+        stairlifts in the US
+    </h1>
+    <p class="white large">
+        There is no better recommendation for any product than that of a satisfied customer.
+        <br>
+        Testimonials from previous buyers speak volumes about the quality of a product and the company supplying it.
+        <br>
+        Here you can see what stairlift users have to say about our recommended provider, Acorn Stairlifts
+    </p>
+    <span class="btn btn-container white">
+        <a href="#contact" style="color: white;">Learn More</a>
+    </span>
+        
+    
+  </header>
+
+  <!-- Cards Section -->
+  <section class="main">
+    <div class="content justify padding-64 flex-center">
+
+      <div class="centered">
+
+          <section class="cards">
+      
+            <article class="card">
+              <a href="#contact">
+                <figure class="thumbnail">
+                <img src="images/step-3.svg" alt="icon1" class="card-img">
+                <p class="card-title-text">Survey & Quote</p>
+
+                </figure>
+                <div class="card-content">
+                  <h2>FREE Home Survey & Quote</h2>
+                  <p>Your local Acorn surveyor will photograph and measure your staircase to determine the best stairlift for you. They will talk to you about your needs and provide a personalised all-inclusive quote for your stairlift installation.</p>
+                  <span class="btn btn-container">
+                      Request A Quote
+                  </span>
+                  
+                </div>
+                <!-- end card-content -->
+              </a>
+            </article>
+            <!-- end card -->
+      
+            <article class="card">
+              <a href="#contact">
+                <figure class="thumbnail">
+                  <img src="images/step-4.svg" alt="icon2" class="card-img">
+                  <p class="card-title-text">Installation</p>
+                </figure>
+                <div class="card-content">
+                  <h2>Rapid<br> Installation</h2>
+                  <p>Installation of your Acorn Stairlift can be organised within days of you placing an order, even NEXT DAY if urgency is essential. Your stairlift will be professionally installed by one of Acorn’s own skilled engineers, with minimal disruption and no mess.</p>
+                  <span class="btn btn-container">
+                      Place An Order
+                  </span>
+                </div>
+                <!-- end card-content -->
+              </a>
+            </article>
+            <!-- end card -->
+      
+            <article class="card">
+              <a href="#contact">
+                <figure class="thumbnail">
+                  <img src="images/step-5.svg" alt="icon3" class="card-img">
+                  <p class="card-title-text">Maintenance</p>
+                </figure>
+                <div class="card-content">
+                  <h2>Future Maintenance</h2>
+                  <p>Your new Acorn Stairlift will require ongoing maintenance, such as an annual service, to keep it in optimum condition and prolong its working life. Full cover for your first year of ownership is included in your warranty.</p>
+                  <span class="btn btn-container">
+                      Call Today
+                  </span>
+                </div>
+                <!-- end card-content -->
+              </a>
+            </article>
+            <!-- end card -->
+          </section>
+          <!-- end cards -->
+        </div>
+</div>
+  </section>
+
+  
+  <!-- Reviews Section -->
+  <section class="main">
+    <div class="padding-48 content justify" id="reviews">
+      <h2 class="center">See what people had to say...</h2>
+  
+      <div class="review-container centered">    
+          <div class="quote-box carousel" data-carousel>
+                  <button class="carousel-button prev" data-carousel-button="prev">&#171;</button>
+                  <button class="carousel-button next" data-carousel-button="next">&#187;</button>
+              <ul data-slides>
+                  <li class="slide" data-active>
+                      <p class="large quote-text">"We were very pleased; the installer was very thorough. He explained everything to do and it took me a while to handle it. But I love it."
+                      <br>
+                      <br>
+                      - Jean Semeraro
+                      <br>
+                      <span class="small">January 2020</span>
+                      </p>
+                  </li>
+                  <li class="slide">
+                      <p class="large quote-text">"Everyone I dealt with at Acorn by phone or in person was wonderful and we love your chair. It is making a huge difference in our quality of life."
+                      <br>
+                      <br>
+                      - Jo Ann Platt
+                      <br>
+                      <span class="small">January 2020</span>
+                      </p>
+                  </li>
+                  <li class="slide">
+                      <p class="large quote-text">"The Acorn Stairlift is a fantastic piece of equipment. I struggled with my arms to pull myself up the stairs and really hurt my muscles. But that is all behind me now. My husband bought me the Acorn stairlift and I love it and him."
+                      <br>
+                      <br>
+                      - Marris Sabatino
+                      <br>
+                      <span class="small">March 2020</span>
+                      </p>
+                  </li>
+              </ul>
+             
+              <img src="/images/quotation.png" alt="bg quotation mark" class="quotation-marks">
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="main">
+      <div class="contact-container">
+        <div class="contact-grid">
+          <div class="contact-item-1 ">
+              <div class="carousel">
+                <div class="carousel-item">
+                  <!-- Curved Chair Item 1 -->
+                  <img src="/images/acorn-curved-hero.png" alt="curved stairlift" style="width: 300px;">
+                  <p>Curved stairlifts that use a unique single railing system that promotes a safe ride up any staircase.</p>
+                </div>
+
+                  <!-- Straight Chair Item 2 -->
+                <div class="carousel-item">
+                    <img src="/images/acorn-straight-hero.png" alt="straight stairlift" width="300px">
+                    <p>Straight stairlifts that provide inertia seatbelt fitted as a standard, promoting best security.</p>
+                </div>
+
+                <!-- Outdoor Chair Item 3 -->
+                <div class="carousel-item carousel-item-selected">
+                    <img src="/images/acorn-outdoor-hero.png" alt="outdoor stairlift" width="300px">
+                    <p>Outdoor stairlifts that are weather resistant and allow you to access any outdoor space you love.</p>
+                </div>
+
+
+              </div> <!--End Chair Carousel-->
+            
+          </div>
+          <div class="contact-item-2">
+            <div class="container-form">  
+              <form id="contact" action="" method="post">
+                <h3>Request A Quote</h3>
+                <h4>Fill out the form for a FREE custom quote</h4>
+                <fieldset>
+                  <input placeholder="First name" type="text" name="firstName" id="firstName" tabindex="1" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Last Name" type="text" name="lastName" id="lastName" tabindex="1" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Email Address" type="email" name="email" id="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Phone Number" type="tel" name="phone" id="phone" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <input type="radio" name="chair-choice" id="curved-choice" placeholder="Curved Stairlift"><label for="curved">Curved Stairlift</label>
+                  <br>
+                  <input type="radio" name="chair-choice" id="straight-choice"><label for="straight">Straight Stairlift</label>
+                  <br>
+                  <input type="radio" name="chair-choice" id="outdoor-choice"><label for="outdoor">Outdoor Stairlift</label>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" class="btn btn-container" data-submit="Submitting">Submit</button>
+                </fieldset>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="main flex-center">
+      <div class="padding-top-64 margin-top" id="gallery">
+          <!-- <h2 class="center" >Gallery</h2> -->
+      
+          <!-- Grid for gallery -->
+          <div class="gallery-container">
+              <div class="gallery">
+                  <figure class="gallery-item gallery-item-1">
+                      <img src="/images/gallery-1.png" alt="Gallery image 1" class="gallery-img">
+                  </figure>
+                  <figure class="gallery-item gallery-item-2">
+                      <img src="/images/gallery-2.png" alt="Gallery image 2" class="gallery-img">
+                  </figure>
+                  <figure class="gallery-item gallery-item-3">
+                      <img src="/images/gallery-3.png" alt="Gallery image 3" class="gallery-img">
+                  </figure>
+                  <figure class="gallery-item gallery-item-4">
+                      <img src="images/gallery-4.png" alt="Gallery image 4" class="gallery-img">
+                  </figure>
+                  <figure class="gallery-item gallery-item-5">
+                      <img src="images/gallery-5.png" alt="Gallery image 5" class="gallery-img">
+                  </figure>
+                  <figure class="gallery-item gallery-item-6">
+                      <img src="images/gallery-6.png" alt="Gallery image 6" class="gallery-img">
+                  </figure>
+              </div>
+          </div>
+        </div>
+  </section><!-- End Section -->
+
+<!-- End page content -->
+</div>
+  
+  
+<!-- Footer -->
+<footer class="main">
+    <div class="flex-center padding-large">
+      <div class="footer-grid">
+        <div class="footer-item-1" >
+          <article class="card flex-center">
+            <div style="background-color: #707070; width: 100%">
+                <div style="background-color: #707070; height: 100%; padding-top: 80px;">
+                    <img src="/images/step-1.svg" alt="icon4" style="color: #707070; width: 40px;">
+                    <h2 class="padding">Request A Quote</h2>
+                </div>
+            
+      
+            <!-- Form -->
+            <form action="" target="_blank" method="POST" style="width: 100%;" class="padding">
+              <p>
+                <input class="input padding-16" type="text" placeholder="First Name" required name="fName">
+            </p>
+            <p>
+                <input class="input padding-16" type="text" placeholder="Last Name" required name="lName">
+            </p>
+              <p>
+                <input class="input padding-16" type="text" placeholder="Email" required name="Email">
+            </p>
+              <p>
+                <input class="input padding-16" type="text" placeholder="Phone Number" required name="Phone Number">
+            </p>
+              <p>
+                <button class="btn btn-container padding-large" type="submit">
+                  <i class="fa fa-paper-plane icon-hover" style="color: white"></i> <span style="color: white;">SUBMIT</span>
+                </button>
+              </p>
+            </form>
+            
+            
+          </article>
+        </div>
+        <div class="footer-item-2 flex-center">
+          <img src="/images/logo.png" alt="logo" width="250px" max-width="300px" class="padding margin">
+          <div style="display: inline;">
+            <ul class="padding margin white ul-display-inline">
+              <li class="xlarge padding margin">
+                 <a href="#home" class="footer-links">Home</a>
+              </li>
+              <li class="xlarge padding margin">
+                 <a href="#reviews" class="footer-links">Reviews</a>
+              </li>
+              <li class="xlarge padding margin">
+                <a href="#gallery" class="footer-links">Gallery</a>
+              </li>
+              <li class="xlarge padding margin">
+                <a href="#contact" class="footer-links">Contact</a>
+              </li>
+          </ul>
+          </div>
+          
+          <button class="btn btn-container padding margin">
+              <span class="large white">
+                  Call 
+                  <i class="fa fa-phone white large" style="padding: 2px 2px;"></i>
+                  1-844-254-5015
+              </span>
+          </button>
+        </div>
+      </div>
+
+
+        
+    </div>
+    
+    <p class="padding footer-text white" style="text-align:right; right: 250px; position: relative;">Created by 
+      <a href="https://taystan.dev/" class="">Taystan</a>
+      for Acorn Stairlifts | 2022
+    </p>
+<!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+
+</body>
+</html>
