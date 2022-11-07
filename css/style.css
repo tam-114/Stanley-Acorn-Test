@@ -28,7 +28,7 @@ html, body {
     margin: 0;
 }
 .circle-bg {
-    background-image: url(/images/circle-scatter-haikei-2.svg);
+    background-image: url(../images/circle-scatter-haikei-2.svg);
     background-repeat: repeat;
     background-size: cover;
 }
@@ -184,7 +184,7 @@ a {
 
 .bg-header {
     background-image: linear-gradient(0deg, rgba(73, 73, 73, 0.5), rgba(55, 55, 55, 0.5)),
-  url(/images/main-hero-1.png);
+  url(../images/main-hero-1.png);
    background-position: center; 
    background-size: cover; 
    background-repeat: no-repeat; 
